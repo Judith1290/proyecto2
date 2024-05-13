@@ -1,0 +1,87 @@
+*{
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: cursive;
+
+    }
+
+    body {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url(./img/gira.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .formulario {
+        width: 420px;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, .2);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+        color: aliceblue;
+        border-radius: 20px;
+        padding: 30px 40px;
+    }
+
+    .titulo {
+
+        font-family: "Pacifico", cursive;
+        /* Tipo de fuente */
+        font-weight: 400px;
+        /* Grosor de la fuente */
+        font-style: normal;
+        /* Estilo de la fuente */
+        text-align: center;
+        /* Alinea el texto al centro */
+
+    }
+
+    .formulario .input-field {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+        text-decoration-color: aliceblue;
+    }
+
+    .input-field input::placeholder {
+
+        color: #fff;
+    }
+
+
+    .input-field input {
+
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 40px;
+        color: aliceblue;
+        padding: 20px 45px 20px 20px;
+
+    }
+
+    .input-field i {
+
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-70%);
+        font-size: 20px;
+
+    }
+
+    .Registro {
+        text-align: center;
+        margin-top: 20px;
+    }
