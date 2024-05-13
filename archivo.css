@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2; /* Color de fondo */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333; /* Color del texto */
+  }
+  
+  form {
+    text-align: center;
+    margin-bottom: 20px; /* Espacio adicional entre el formulario y los archivos cargados */
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Tamaño del texto */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #selectedFiles {
+    list-style-type: none; /* Eliminar viñetas de la lista */
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  /* /* .button {
+    padding: 4px 8px; /* Tamaño del botón de eliminar */
+    /* font-size: 14px; /* Tamaño del texto del botón de eliminar */
+    /* background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; */ */
+    margin-left: 10px; /* Distancia entre el botón de eliminar y el texto } */
+   
+  /* button.delete-button:hover {
+    background-color: #d32f2f;
+  }
+   */
+    
