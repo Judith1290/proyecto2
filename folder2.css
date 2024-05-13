@@ -1,0 +1,117 @@
+body {
+    background: url(./img/af4d79ad1b9d8b50ec16dc04046b11a1.jpg) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+
+    background: #808080;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+.nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 80%;
+}
+
+.nav li {
+
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* .lineasEsquinera {
+
+    margin-top: ;
+    margin-bottom: 50px;
+
+} */
+
+img {
+
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.h1 {
+    font-family: "Pacifico", cursive;
+    /* Tipo de fuente */
+    font-weight: 400px;
+    /* Grosor de la fuente */
+    font-style: normal;
+    /* Estilo de la fuente */
+    text-align: center;
+    /* Alinea el texto al centro */
+}
+
+.profecion {
+
+    font-family: "Pacifico", cursive;
+    /* Tipo de fuente */
+    font-weight: 400px;
+    /* Grosor de la fuente */
+    font-style: normal;
+    /* Estilo de la fuente */
+    text-align: center;
+    /* Alinea el texto al centro */
+
+}
+
+.inicio {
+
+    background-size: cover;
+    height: 70vh;
+    color: azure;
+    margin-bottom: 500px;
+    position: absolute;
+
+}
+
+
+.contenido {
+    padding: 10px;
+    /* Reducir el espacio interno */
+    background-color: black;
+    max-width: 250px;
+    /* Reducir el ancho máximo de la caja */
+    margin: auto;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 40px;
+    font-family: "Pacifico", cursive;
+    /* Tipo de fuente */
+    color: white;
+    /* Color del texto */
+}
+
+
+.footer {
+    display: grid;
+    /* Utiliza el modelo de caja grid */
+    background: linear-gradient(to right, #ff7eb9, #c9a0ff);
+    /* Fondo degradado de rosa a lila claro */
+    grid-template-columns: 50% 50%;
+    /* Divide el contenedor en dos columnas iguales */
+    padding: 30px;
+    margin-top: 50%;
+    font-family: "Pacifico", cursive;
+    /* Tipo de fuente */
+    text-align: center;
+    /* Alinea el texto al centro */
+    color: #333333;
+    /* Color de texto */
+}
