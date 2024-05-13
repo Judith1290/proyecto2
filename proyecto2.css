@@ -1,0 +1,130 @@
+/* Estilos globales que se aplican a todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+/* Estilos específicos para el cuerpo del documento */
+body {
+    /* Centra vertical y horizontalmente el contenido del cuerpo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Establece la altura mínima del cuerpo al 100% del viewport */
+    min-height: 100vh;
+    /* Establece la imagen de fondo y ajusta su tamaño y posición */
+    background: url(./img/845f40d05207c6099fe657fac9f9a575.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos específicos para el contenedor del formulario */
+.formuario {
+    /* Ancho del formulario */
+    width: 420px;
+    /* Fondo transparente con borde y efecto de desenfoque */
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0,0,0,.2);
+    /* Color del texto */
+    color: aliceblue;
+    /* Bordes redondeados */
+    border-radius: 20px;
+    /* Espaciado interno */
+    padding: 30px 40px;
+}
+
+/* Estilos específicos para el título del formulario */
+.titulo {
+    /* Tipo de fuente y estilo */
+    font-family: "Pacifico", cursive;
+    font-weight: 400; /* 'px' no es necesario aquí */
+    font-style: normal;
+    /* Alineación del texto al centro */
+    text-align: center;
+}
+
+/* Estilos para los campos de entrada del formulario */
+.formuario .input-field {
+    /* Establece la posición relativa y el tamaño de los campos de entrada */
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0; /* Margen superior e inferior */
+    /* Color del texto del marcador de posición */
+    text-decoration-color: aliceblue;
+}
+
+/* Estilos para el marcador de posición del campo de entrada */
+.input-field input::placeholder {
+    /* Color del texto del marcador de posición */
+    color: #fff;
+}
+
+/* Estilos para el campo de entrada del formulario */
+.input-field input {
+    /* Ancho y alto del campo de entrada */
+    width: 100%;
+    height: 100%;
+    /* Fondo transparente y sin bordes */
+    background: transparent;
+    border: none;
+    /* Elimina el contorno predeterminado del campo de entrada */
+    outline: none;
+    /* Borde personalizado */
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    /* Color del texto */
+    color: aliceblue;
+    /* Espaciado interno */
+    padding: 20px 45px 20px 20px;
+}
+
+/* Estilos para el icono dentro del campo de entrada */
+.input-field i {
+    /* Posición absoluta y ajuste */
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-70%);
+    /* Tamaño del icono */
+    font-size: 20px;
+}
+
+/* Estilos para el botón de registro
+.Registro {
+    /* Alineación del texto al centro */
+    text-align: center;
+    /* Margen superior */
+    margin-top: 20px;
+/* } */ */
+
+/* Estilos para el texto */
+.letra {
+    /* Color del subrayado del texto */
+    text-decoration-color: aliceblue;
+}
+
+/* Estilos para el botón */
+.boton {
+    /* Ancho y alto del botón */
+    width: 100%;
+    height: 45px;
+    /* Margen superior */
+    margin-top: 10px;
+    /* Fondo blanco y borde personalizado */
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    /* Sombra */
+    box-shadow: 0 0 10px rgb(0,0,0,.1);
+    /* Cursor personalizado */
+    cursor: pointer;
+    /* Tamaño del texto y color */
+    font-size: 16px;
+    color: aqua;
+}
